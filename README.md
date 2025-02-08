@@ -15,10 +15,6 @@ from telegram import Update, ReplyKeyboardMarkup, InlineKeyboardButton, InlineKe
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext, ConversationHandler
 import math  # Import the math module
 
-
-
-keep_alive()
-
 TOKEN = '8065872471:AAF3N6q8W2n6LjLckcZVJ5EsiAZJvSGPqgo'
 
 ADMENS = [1325023990, 9903205321]  # Fixed the leading zero issue
@@ -166,8 +162,5 @@ def cancel(update: Update, context: CallbackContext):
 if __name__ == "__main__":
     main()
 
-from keep_alive import keep_alive  # keep_alive.py faylidan import qilish
-
-if __name__ == '__main__':
    
  
